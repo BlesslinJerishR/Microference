@@ -4,12 +4,20 @@
 :root {
   --neon-violet: #8d85fd;
   --neon-pink: #c822ff;
+  --neon-green: #00ff00;
+  --neon-red: #ff0000;
+  --neon-black: #1d1e21;
 }
 
 * {
   padding: 0;
   margin: 0;
   font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  background-color: #000;
 }
 
 .camp {
@@ -20,6 +28,16 @@
   color: var(--neon-pink) !important;
 }
 
+.navbar {
+  background-color: #000 !important;
+}
 main h1 {
   font-weight: 900;
+  color: #fff;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+#neon-clr {
+  color: var(--neon-red);
 }

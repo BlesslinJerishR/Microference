@@ -31,6 +31,7 @@ body {
 .navbar {
   background-color: #000 !important;
 }
+
 main h1 {
   font-weight: 900;
   color: #fff;
@@ -38,6 +39,48 @@ main h1 {
   margin-left: 10%;
 }
 
-#neon-clr {
+#neon-red-clr {
   color: var(--neon-red);
+}
+
+main p {
+  margin-top: 3%;
+  margin-left: 10%;
+}
+
+main h2 {
+  font-weight: 900;
+  color: #fff;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+main .p2 {
+  margin-top: 12px;
+}
+
+.main-program h1 {
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+}
+
+.card-body {
+  margin-top: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+  .cards {
+    display: block !important;
+  }
+
+  .card-even {
+    margin-top: 40px;
+    margin-left: 80px;
+  }
+
+  .card-odd {
+    margin-top: 40px;
+    margin-left: 80px !important;
+  }
 }

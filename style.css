@@ -19,3 +19,7 @@
 .abt {
   color: var(--neon-pink) !important;
 }
+
+main h1 {
+  font-weight: 900;
+}

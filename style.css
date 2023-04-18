@@ -1,8 +1,21 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 
+:root {
+  --neon-violet: #8d85fd;
+  --neon-pink: #c822ff;
+}
+
 * {
   padding: 0;
   margin: 0;
   font-family: "Lato", sans-serif;
+}
+
+.camp {
+  border: 2px solid var(--neon-violet);
+}
+
+.abt {
+  color: var(--neon-pink) !important;
 }

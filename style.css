@@ -69,6 +69,8 @@ main .p2 {
   margin-top: 40%;
 }
 
+/* Media Query for mobile */
+
 @media only screen and (max-width: 600px) {
   .cards {
     display: block !important;
@@ -83,4 +85,52 @@ main .p2 {
     margin-top: 40px;
     margin-left: 80px !important;
   }
+}
+
+.ai-art {
+  height: 400px;
+  position: absolute;
+  margin-top: -450px;
+  left: 60%;
+  border-radius: 11px;
+}
+
+.f-speakers h1 {
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+}
+
+#dynamic {
+  flex-wrap: wrap;
+}
+
+.cb {
+  margin-top: 0px;
+}
+
+.fb {
+  background-color: transparent;
+  padding: 10px;
+  margin-left: 70px;
+}
+
+.partners h1 {
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+}
+
+footer h1 {
+  font-weight: 900;
+  color: #fff;
+}
+
+.foot {
+  margin: 10%;
+}
+
+.foot-logo {
+  margin-top: 5%;
+  margin-left: 1.5%;
 }

@@ -69,6 +69,11 @@ main .p2 {
   margin-top: 40%;
 }
 
+.card-up {
+  background-color: #000;
+  border: 2px solid var(--neon-red);
+}
+
 /* Media Query for mobile */
 
 @media only screen and (max-width: 600px) {

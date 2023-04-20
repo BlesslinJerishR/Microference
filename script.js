@@ -1,9 +1,9 @@
-gid = (id) => {
+let gid = (id) => {
   return document.getElementById(id);
 };
 
 const year = gid('year');
-var dt = new Date();
+let dt = new Date();
 year.innerHTML = dt.getFullYear();
 
 const footYear = gid('foot-year');

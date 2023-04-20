@@ -142,6 +142,10 @@ footer h1 {
   display: none !important;
 }
 
+.card{
+  width: 13rem;
+}
+
 /* Media Query for mobile */
 
 @media only screen and (max-width: 600px) {

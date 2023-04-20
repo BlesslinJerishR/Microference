@@ -4,8 +4,8 @@
 :root {
   --neon-violet: #8d85fd;
   --neon-pink: #c822ff;
-  --neon-green: #00ff00;
-  --neon-red: #ff0000;
+  --neon-green: #0f0;
+  --neon-red: #f00;
   --neon-black: #1d1e21;
 }
 
@@ -63,6 +63,11 @@ main .p2 {
   margin-top: 12px;
 }
 
+footer h1 {
+  font-weight: 900;
+  color: #fff;
+}
+
 .main-program h1 {
   font-weight: 900;
   color: #fff;
@@ -97,7 +102,7 @@ main .p2 {
 }
 
 .cb {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .fb {
@@ -110,11 +115,6 @@ main .p2 {
   font-weight: 900;
   color: #fff;
   text-align: center;
-}
-
-footer h1 {
-  font-weight: 900;
-  color: #fff;
 }
 
 .foot {

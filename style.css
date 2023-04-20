@@ -133,6 +133,13 @@ footer h1 {
 .navbar-toggler-icon {
   margin-left: 280px;
   margin-top: -100px;
+  height: 45px;
+  width: 45px;
+  filter: invert(1);
+}
+
+#dynamic-mobile {
+  display: none !important;
 }
 
 /* Media Query for mobile */
@@ -184,7 +191,19 @@ footer h1 {
     margin-top: 120px !important;
   }
 
-  .f-speakers {
-    display: none;
+  #dynamic {
+    display: none !important;
   }
+
+  #dynamic-mobile {
+    display: inline !important;
+  }
+
+  .img-head-mob {
+    height: 130px;
+  }
+
+  .con-mob{
+    margin-left: 142px;
+    margin-top: -121px
 }

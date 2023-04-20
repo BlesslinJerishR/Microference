@@ -44,16 +44,34 @@ const dataSet = [
 
 const dynamic = gid("dynamic");
 for (let num = 0; num <= dataSet.length; num += 1) {
-  dynamic.innerHTML += `<div class="card mb-3 fb" style="max-width: 540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="imgs/${num}.png" class="img-fluid rounded-start" alt="Headshot Photo">
+  dynamic.innerHTML += `<div class='card mb-3 fb' style='max-width: 540px;'>
+    <div class='row g-0'>
+      <div class='col-md-4'>
+        <img src='imgs/${num}.png' class='img-fluid rounded-start' alt='Headshot Photo'>
       </div>
-      <div class="col-md-8">
-        <div class="card-body cb">
-          <h5 class="card-title name text-white">${dataSet[num].name}</h5>
-          <p class="card-text text-danger p1">${dataSet[num].p1}</p>
-          <p class="card-text p2 text-white">${dataSet[num].p2}</p>
+      <div class='col-md-8'>
+        <div class='card-body cb'>
+          <h5 class='card-title name text-white'>${dataSet[num].name}</h5>
+          <p class='card-text text-danger p1'>${dataSet[num].p1}</p>
+          <p class='card-text p2 text-white'>${dataSet[num].p2}</p>
+        </div>
+      </div>
+    </div>
+  </div>`;
+}
+
+const dynamicMobile = gid("dynamic-mobile");
+for (let num = 0; num <= dataSet.length; num += 1) {
+  dynamicMobile.innerHTML += `<div class='card mb-3 fb' style='max-width: 540px;'>
+    <div class='row g-0'>
+      <div class='col-md-4'>
+        <img src='imgs/${num}.png' class='img-fluid rounded-start' alt='Headshot Photo'>
+      </div>
+      <div class='col-md-8'>
+        <div class='card-body cb'>
+          <h5 class='card-title name text-white'>${dataSet[num].name}</h5>
+          <p class='card-text text-danger p1'>${dataSet[num].p1}</p>
+          <p class='card-text p2 text-white'>${dataSet[num].p2}</p>
         </div>
       </div>
     </div>

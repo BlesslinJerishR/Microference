@@ -20,6 +20,10 @@ body {
   background-color: #000;
 }
 
+.desktop-card {
+  display: flex !important;
+}
+
 .camp {
   border: 2px solid var(--neon-violet);
 }
@@ -74,24 +78,6 @@ main .p2 {
   border: 2px solid var(--neon-red);
 }
 
-/* Media Query for mobile */
-
-@media only screen and (max-width: 600px) {
-  .cards {
-    display: block !important;
-  }
-
-  .card-even {
-    margin-top: 40px;
-    margin-left: 80px;
-  }
-
-  .card-odd {
-    margin-top: 40px;
-    margin-left: 80px !important;
-  }
-}
-
 .ai-art {
   height: 400px;
   position: absolute;
@@ -138,4 +124,67 @@ footer h1 {
 .foot-logo {
   margin-top: 5%;
   margin-left: 1.5%;
+}
+
+.mobile-card {
+  display: none;
+}
+
+.navbar-toggler-icon {
+  margin-left: 280px;
+  margin-top: -100px;
+}
+
+/* Media Query for mobile */
+
+@media only screen and (max-width: 600px) {
+  .cards {
+    display: block !important;
+  }
+
+  .card-even {
+    margin-top: 40px;
+    margin-left: 80px;
+  }
+
+  .card-odd {
+    margin-top: 40px;
+    margin-left: 80px !important;
+  }
+
+  .ai-art {
+    position: relative;
+    margin-top: 20%;
+    margin-left: -190px;
+    height: 300px;
+    text-align: center;
+  }
+
+  .mobile-card {
+    display: flex;
+    margin-left: 20px;
+  }
+
+  .log {
+    margin-left: 33%;
+  }
+
+  .desktop-card {
+    display: none !important;
+  }
+
+  .foot-logo {
+    margin-top: 12%;
+    margin-left: 4%;
+  }
+
+  .foot-add {
+    position: relative;
+    margin-left: -200px !important;
+    margin-top: 120px !important;
+  }
+
+  .f-speakers {
+    display: none;
+  }
 }

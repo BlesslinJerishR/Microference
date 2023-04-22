@@ -188,7 +188,7 @@ You can deploy this project using: Netlify & Github Pages
 
 ## 🔭 Project Presentation Outline <a name="loom"></a>
 
-- [Loom Video](loomlink)
+- [Loom Video](https://www.loom.com/share/087b1b664d0f41e9acbdba03e3fdf3d4)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTRIBUTING -->

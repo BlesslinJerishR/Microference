@@ -2,10 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 
 :root {
-  --neon-violet: #8d85fd;
-  --neon-pink: #c822ff;
+  --neon-violet: #ec5242;
+  --neon-pink: #ec5242;
   --neon-green: #0f0;
-  --neon-red: #f00;
+  --neon-red: #ec5242;
   --neon-black: #1d1e21;
 }
 
@@ -17,12 +17,12 @@
 
 html,
 body {
-  background-color: #000;
+  background-color: #fff;
 }
 
 .aside-section {
   display: block;
-  background-color: #fff;
+  background-color: grey;
 }
 
 .top-elements {
@@ -34,7 +34,7 @@ body {
   gap: 10px;
   justify-content: flex-end;
   margin-right: 10%;
-  color: #000;
+  color: #fff;
 }
 
 .aside-icon {
@@ -58,12 +58,16 @@ body {
 }
 
 .navbar {
-  background-color: #000 !important;
+  background-color: #fff !important;
+}
+
+.main-program {
+  background-color: #262b31;
 }
 
 main h1 {
   font-weight: 900;
-  color: #fff;
+  color: #ec5242;
   margin-top: 10%;
   margin-left: 10%;
 }
@@ -79,7 +83,7 @@ main p {
 
 main h2 {
   font-weight: 900;
-  color: #fff;
+  color: #000;
   margin-top: 5%;
   margin-left: 10%;
 }
@@ -90,7 +94,7 @@ main .p2 {
 
 footer h1 {
   font-weight: 900;
-  color: #fff;
+  color: #000;
 }
 
 .main-program h1 {
@@ -104,8 +108,13 @@ footer h1 {
 }
 
 .card-up {
-  background-color: #000;
-  border: 2px solid var(--neon-red);
+  background-color: #3d4146;
+  border: 2px solid transparent;
+  margin-bottom: 10px;
+}
+
+.card {
+  border-radius: none;
 }
 
 .ai-art {
@@ -118,7 +127,7 @@ footer h1 {
 
 .f-speakers h1 {
   font-weight: 900;
-  color: #fff;
+  color: #000;
   text-align: center;
 }
 
@@ -134,11 +143,33 @@ footer h1 {
   background-color: transparent;
   padding: 10px;
   margin-left: 70px;
+  border: none;
+}
+
+.text-grey {
+  color: #7f7f7f;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+  border: none;
+}
+
+.it {
+  font-style: italic;
+}
+
+.partners {
+  background-color: #404346;
 }
 
 .partners h1 {
   font-weight: 900;
-  color: #fff;
+  color: #d3d3d3;
   text-align: center;
 }
 
@@ -160,7 +191,11 @@ footer h1 {
   margin-top: -100px;
   height: 45px;
   width: 45px;
-  filter: invert(1);
+}
+
+.mobile-card {
+  background-color: #3d4146;
+  padding: 15px;
 }
 
 #dynamic-mobile {

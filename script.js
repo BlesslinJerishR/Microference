@@ -49,9 +49,9 @@ for (let num = 0; num < dataSet.length; num += 1) {
       </div>
       <div class='col-md-8'>
         <div class='card-body cb'>
-          <h5 class='card-title name text-white'>${dataSet[num].name}</h5>
-          <p class='card-text text-danger p1'>${dataSet[num].p1}</p>
-          <p class='card-text p2 text-white'>${dataSet[num].p2}</p>
+          <h5 class='card-title name text-dark'>${dataSet[num].name}</h5>
+          <p class='card-text text-danger p1 it'>${dataSet[num].p1}</p>
+          <p class='card-text p2 text-grey'>${dataSet[num].p2}</p>
         </div>
       </div>
     </div>
@@ -65,9 +65,9 @@ for (let num = 0; num < dataSet.length; num += 1) {
       <img src='imgs/${num}.png' class='img-fluid rounded-start img-head-mob' alt='Headshot Photo'>
     </div>
     <div class='con-mob mb-5'>
-      <h5 class='card-title name text-white'>${dataSet[num].name}</h5>
-      <p class='card-text text-danger p1'>${dataSet[num].p1}</p>
-      <p class='card-text p2 text-white'>${dataSet[num].p2}</p>
+      <h5 class='card-title name text-dark'>${dataSet[num].name}</h5>
+      <p class='card-text text-danger p1 it'>${dataSet[num].p1}</p>
+      <p class='card-text p2 text-grey'>${dataSet[num].p2}</p>
     </div>
   `;
 }

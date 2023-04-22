@@ -20,6 +20,31 @@ body {
   background-color: #000;
 }
 
+.aside-section {
+  display: block;
+  background-color: #fff;
+}
+
+.top-elements {
+  display: flex;
+  flex-direction: row;
+  padding: 9px;
+  font-weight: 400;
+  font-size: 14px;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-right: 10%;
+  color: #000;
+}
+
+.aside-icon {
+  margin-top: 5px;
+}
+.top-elements a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .desktop-card {
   display: flex !important;
 }
